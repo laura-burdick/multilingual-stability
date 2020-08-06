@@ -19,6 +19,7 @@ If you use this code, please cite the following paper:
 - Dependencies: [Jupyter notebook](https://jupyter.org/), [tqdm](https://github.com/tqdm/tqdm)
 - To run this, you will need to download the Bible corpora and set the variables at the top of the notebook.
 - **all_bible_texts.txt** is also included as a helper file. This is a list of all the Bible translations.
+
 **stability/**: This folder contains code to calculate stability for both Wikipedia and the Bible corpora.
 - Dependencies: [gensim](https://radimrehurek.com/gensim/), [GloVe](https://nlp.stanford.edu/projects/glove/), [faiss](https://github.com/facebookresearch/faiss), [sklearn](https://scikit-learn.org/), [numpy](https://numpy.org/), [tqdm](https://github.com/tqdm/tqdm), [pandas](https://pandas.pydata.org/)
 - For the Bible, first you need to create five word2vec embedding spaces (with different random seeds) for each language. The script **w2v_bible.py** will do this. Before running this, you will need to have the Bible corpora downloaded, and you will need to set the variables at the top of the script.
