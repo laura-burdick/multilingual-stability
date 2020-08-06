@@ -16,7 +16,7 @@ import pandas as pd
 nicolai_path = '/local/data/polyglot/'
 
 # Location where output stability will be stored
-# Files will be stored in the format {output_path}{language}/{language}_downsampled_without_replacement_glove_stability_{downsample_index}.csv, where the csv file has columns "word" and "stability", and the stability value is recorded for each word
+# Files will be stored in the format {output_path}{language}/{language}_downsampled_without_replacement_glove_stability.csv, where the csv file has columns "word" and "stability", and the stability value is recorded for each word
 output_path = nicolai_path
 
 # Indices of downsamples to process (can adjust if needed, or leave the same)
@@ -91,4 +91,4 @@ for language in languages:
 
 	print('Writing output file...')
 	df = pd.DataFrame(data={'word':words,'stability':stabilities})
-	df.to_csv(output_path+language+'/'+language+'_downsampled_without_replacement_glove_stability_'+str(seed)+'.csv')
+	df.to_csv(output_path+language+'/'+language+'_downsampled_without_replacement_glove_stability.csv')

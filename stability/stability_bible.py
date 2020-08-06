@@ -16,7 +16,7 @@ import pandas as pd
 nicolai_path = '/local/data/multilingual/bible/nicolai/w2v/nearestNeighbors/'
 
 # Location where output stability will be stored
-# Files will be stored in the format {output_path}{language}_{word2vec_seed}.csv, where the csv file has columns "word" and "stability", and the stability value is recorded for each word
+# Files will be stored in the format {output_path}{language}.csv, where the csv file has columns "word" and "stability", and the stability value is recorded for each word
 output_path = '/local/data/multilingual/bible/nicolai/w2v/stability/'
 
 # List of word2vec seeds to use (can adjust if needed, or leave the same)
@@ -93,4 +93,4 @@ for language in languages:
 
 	print('Writing output file...')
 	df = pd.DataFrame(data={'word':words,'stability':stabilities})
-	df.to_csv(output_path+language+'_'+str(seed)+'.csv')
+	df.to_csv(output_path+language+'.csv')
