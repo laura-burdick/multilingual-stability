@@ -1,0 +1,43 @@
+,property1,property2,correlation,groupNum
+0,5A: Voicing and Gaps in Plosive Systems__None missing in /p t k b d g/,4A: Voicing in Plosives and Fricatives__In both plosives and fricatives,0.8913161304747290,0
+1,31A: Sex-based and Non-sex-based Gender Systems__No gender,30A: Number of Genders__None,1.0,1
+2,32A: Systems of Gender Assignment__No gender,30A: Number of Genders__None,1.0,1
+3,32A: Systems of Gender Assignment__No gender,31A: Sex-based and Non-sex-based Gender Systems__No gender,1.0,1
+8,44A: Gender Distinctions in Independent Personal Pronouns__No gender distinctions,31A: Sex-based and Non-sex-based Gender Systems__No gender,0.8024906192543280,1
+7,44A: Gender Distinctions in Independent Personal Pronouns__No gender distinctions,30A: Number of Genders__None,0.8024906192543280,1
+9,44A: Gender Distinctions in Independent Personal Pronouns__No gender distinctions,32A: Systems of Gender Assignment__No gender,0.8024906192543280,1
+4,32A: Systems of Gender Assignment__Semantic and formal,31A: Sex-based and Non-sex-based Gender Systems__Sex-based,0.8520128672302580,2
+5,38A: Indefinite Articles__No definite or indefinite article,37A: Definite Articles__No definite or indefinite article,1.0,3
+24,100A: Alignment of Verbal Person Marking__Neutral,29A: Syncretism in Verbal Person/Number Marking__No subject person/number marking,0.8376233659741150,4
+25,101A: Expression of Pronominal Subjects__Optional pronouns in subject position,100A: Alignment of Verbal Person Marking__Neutral,0.8010752688172040,4
+26,102A: Verbal Person Marking__No person marking,29A: Syncretism in Verbal Person/Number Marking__No subject person/number marking,0.8376233659741150,4
+27,102A: Verbal Person Marking__No person marking,100A: Alignment of Verbal Person Marking__Neutral,1.0000000000000000,4
+28,102A: Verbal Person Marking__No person marking,101A: Expression of Pronominal Subjects__Optional pronouns in subject position,0.8010752688172040,4
+29,103A: Third Person Zero of Verbal Person Marking__No person marking,29A: Syncretism in Verbal Person/Number Marking__No subject person/number marking,0.8376233659741150,4
+30,103A: Third Person Zero of Verbal Person Marking__No person marking,100A: Alignment of Verbal Person Marking__Neutral,1.0000000000000000,4
+32,103A: Third Person Zero of Verbal Person Marking__No person marking,102A: Verbal Person Marking__No person marking,1.0000000000000000,4
+31,103A: Third Person Zero of Verbal Person Marking__No person marking,101A: Expression of Pronominal Subjects__Optional pronouns in subject position,0.8010752688172040,4
+6,40A: Inclusive/Exclusive Distinction in Verbal Inflection__No person marking,29A: Syncretism in Verbal Person/Number Marking__No subject person/number marking,0.9264111117062020,4
+10,66A: The Past Tense__No past tense,50A: Asymmetrical Case-Marking__No case-marking,0.823809523809524,5
+19,98A: Alignment of Case Marking of Full Noun Phrases__Neutral,66A: The Past Tense__No past tense,0.9196919774214260,5
+21,99A: Alignment of Case Marking of Pronouns__Neutral,66A: The Past Tense__No past tense,1.0,5
+20,99A: Alignment of Case Marking of Pronouns__Neutral,50A: Asymmetrical Case-Marking__No case-marking,0.823809523809524,5
+22,99A: Alignment of Case Marking of Pronouns__Neutral,98A: Alignment of Case Marking of Full Noun Phrases__Neutral,0.9196919774214260,5
+11,69A: Position of Tense-Aspect Affixes__Tense-aspect suffixes,26A: Prefixing vs. Suffixing in Inflectional Morphology__Strongly suffixing,0.8313509264344950,6
+12,69A: Position of Tense-Aspect Affixes__No tense-aspect inflection,23A: Locus of Marking in the Clause__No marking,0.898494110535326,7
+13,78A: Coding of Evidentiality__Verbal affix or clitic,77A: Semantic Distinctions of Evidentiality__Indirect only,0.8630339426736920,8
+14,78A: Coding of Evidentiality__No grammatical evidentials,77A: Semantic Distinctions of Evidentiality__No grammatical evidentials,1.0000000000000000,9
+15,83A: Order of Object and Verb__OV,"81A: Order of Subject, Object and Verb__SOV",0.9315885051121780,10
+16,83A: Order of Object and Verb__VO,"81A: Order of Subject, Object and Verb__SVO",0.8837788686981580,11
+17,95A: Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase__VO and Prepositions,85A: Order of Adposition and Noun Phrase__Prepositions,0.9448564034753670,12
+18,97A: Relationship between the Order of Object and Verb and the Order of Adjective and Noun__OV and AdjN,95A: Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase__OV and Postpositions,0.9107651110783740,13
+23,99A: Alignment of Case Marking of Pronouns__Nominative - accusative (standard),98A: Alignment of Case Marking of Full Noun Phrases__Nominative - accusative (standard),0.9388345202485130,14
+33,114A: Subtypes of Asymmetric Standard Negation__Non-assignable,113A: Symmetric and Asymmetric Standard Negation__Symmetric,1.0,15
+34,119A: Nominal and Locational Predication__Identical,118A: Predicative Adjectives__Nonverbal encoding,0.945984335830337,16
+35,122A: Relativization on Subjects__Gap,28A: Case Syncretism__No case marking,0.8125186029787140,17
+39,136B: M in First Person Singular__No m in first person singular,28A: Case Syncretism__No case marking,0.8024906192543280,17
+40,136B: M in First Person Singular__No m in first person singular,136A: M-T Pronouns__No M-T pronouns,0.9356392870229830,17
+36,123A: Relativization on Obliques__Relative pronoun,122A: Relativization on Subjects__Relative pronoun,0.9196919774214260,18
+37,127A: Reason Clauses__Balanced,126A: 'When' Clauses__Balanced,0.8784104611578830,19
+38,"144A: Position of Negative Word With Respect to Subject, Object, and Verb__MorphNeg",112A: Negative Morphemes__Negative affix,1.0,20
+41,136B: M in First Person Singular__m in first person singular,"136A: M-T Pronouns__M-T pronouns, paradigmatic",0.9196919774214260,21
