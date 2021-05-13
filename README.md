@@ -11,7 +11,12 @@ The code in this repository was used in Chapter 4 of Laura Burdick's Ph.D. thesi
 ## Citation Information
 If you use this code, please cite the following paper:
 ```
-(citation forthcoming)
+@phdthesis{burdickThesis2020,
+  author  = "Burdick, Laura",
+  title   = "Understanding Word Embedding Stability Across Languages and Applications",
+  school  = "University of Michigan",
+  year    = "2020"
+}
 ```
 
 ## Code Included
