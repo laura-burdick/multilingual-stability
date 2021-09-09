@@ -6,10 +6,18 @@ Language and Information Technologies (LIT)
 University of Michigan
 
 ## Introduction
-The code in this repository was used in Chapter 4 of Laura Burdick's Ph.D. thesis. I have tried to document it well, but at the end of the day, it is research code, so if you have any problems using it, please get in touch with Laura Burdick (lburdick@umich.edu).
+The code in this repository was used in an EMNLP 2021 paper, as well as Chapter 4 of Laura Burdick's Ph.D. thesis. I have tried to document it well, but at the end of the day, it is research code, so if you have any problems using it, please get in touch with Laura Burdick (lburdick@umich.edu).
 
 ## Citation Information
-If you use this code, please cite the following paper:
+If you use this code, please cite either of the following papers:
+```
+@inproceedings{Burdick21Analyzing,
+  author = {Burdick, Laura and Kummerfeld, Jonathan K. and Mihalcea, Rada},
+  title = {Analyzing the Surprising Variability in Word Embedding Stability Across Languages},
+  booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  year = {2021}
+}
+```
 ```
 @phdthesis{burdickThesis2020,
   author  = "Burdick, Laura",
@@ -41,4 +49,4 @@ If you use this code, please cite the following paper:
 - A few data files are included that are referenced in the various scripts. **correlations.csv** contains Spearman's correlations between all the relevant WALS properties. It also includes a manual grouping of highly correlated properties. **multilingual_corpora.csv** contains a partial mapping between the Wikipedia language identifiers, the Bible language identifiers (ISO 639-3 Code), and the full name of the language. This was compiled manually.
 
 ## Acknowledgements
-This material is based in part upon work supported by the National Science Foundation (NSF \#1344257), the Defense Advanced Research Projects Agency (DARPA) AIDA program under grant \#FA8750-18-2-0019, and the Michigan Institute for Data Science (MIDAS). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF, DARPA, or MIDAS.
+This material is based in part upon work supported by the National Science Foundation (grant #1815291) and by the John Templeton Foundation (grant #61156). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the National Science Foundation or John Templeton Foundation.
